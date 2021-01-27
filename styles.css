@@ -15,6 +15,7 @@ body {
 
 .header-heading {
     padding: 56px 0;
+    margin-left: 20px;
 }
 
 .main-heading {
@@ -29,10 +30,8 @@ body {
 .main-content {
     padding: 0 40px;
     margin-bottom: 100px;
-}
-
-.header-heading {
-    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav {
@@ -46,6 +45,26 @@ body {
     padding-right: 12px;
 }
 
+.contact-info {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.social-icon {
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+}
+
 .footer-center {
     text-align: center;
+}
+
+.footer-content {
+    color: gray;
+}
+
+.footer-image {
+    height: 15px;
+    width: 15px;
 }
