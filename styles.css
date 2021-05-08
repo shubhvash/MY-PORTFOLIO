@@ -7,49 +7,23 @@ body {
 }
 
 .header {
-    background-image: url('https://images.unsplash.com/photo-1556726307-09a5d69f2cd8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80');
-    background-size: 10000px;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    background-size: auto;
     background-repeat: no-repeat;
     padding-top: 28px;
     color: white;
 }
 
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .header-heading {
     padding: 56px 0;
     margin-left: 20px;
-}
-
-.embed-div {
-    text-align: center;
-}
-
-.main-heading {
-    text-align: center;
-}
-
-.main-subheading {
-    margin-top: 48px;
-    margin-bottom: 0px;
-}
-
-.main-content {
-    padding: 0 40px;
-    margin: auto;
-    float: left;
-}
-
-.mypic-div {
-    float: right;
-    text-align: center;
-}
-
-.mypic-img {
-    margin-top: 70%;
-    height: 150px;
-    width: 50x;
-    padding-right: 80px;
-    padding-top: 40px;
-    border-radius: 5%;
 }
 
 .nav {
@@ -63,9 +37,61 @@ body {
     padding-right: 12px;
 }
 
-.contact-info {
-    margin-top: 50px;
+.embed-div {
     text-align: center;
+}
+
+.master-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-div {
+    text-align: left;
+    padding-left: 400px;
+    align-content: center;
+    padding-bottom: 100px;
+}
+
+.mypic-div {
+    text-align: right;
+    padding-right: 400px;
+    padding-bottom: 300px;
+    align-content: center;
+    justify-content: center;
+}
+
+.mypic-img {
+    margin-top: 60%;
+    margin-left: 10%;
+    height: 222px;
+    width: 220px;
+    border-radius: 50%;
+}
+
+.projects-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-div {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .social-icon {
@@ -78,16 +104,20 @@ body {
     position: fixed;
     left: 0;
     bottom: 0;
+    height: 45px;
     width: 100%;
-    color: white;
     text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, red, yellow);
 }
 
 .footer-content {
-    color: gray;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-.footer-image {
-    height: 15px;
-    width: 15px;
+.footer-span {
+    color: red;
 }
