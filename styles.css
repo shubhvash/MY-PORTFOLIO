@@ -71,6 +71,10 @@ body {
     border-radius: 50%;
 }
 
+.content-heading {
+    margin-top: 80;
+}
+
 .projects-div {
     display: flex;
     flex-direction: column;
@@ -83,6 +87,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.section-div {
+    margin-bottom: 100px;
 }
 
 .contact-div {
@@ -121,3 +129,7 @@ body {
 .footer-span {
     color: red;
 }
+
+ul {
+    list-style-type: circle;
+} 
