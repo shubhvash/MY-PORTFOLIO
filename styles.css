@@ -3,6 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #34495e;
     font-size: 20px;
+
 }
 
 .header {
@@ -33,9 +34,22 @@ body {
 
 .main-content {
     padding: 0 40px;
-    margin-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    float: left;
+}
+
+.mypic-div {
+    float: right;
+    text-align: center;
+}
+
+.mypic-img {
+    margin-top: 70%;
+    height: 150px;
+    width: 50x;
+    padding-right: 80px;
+    padding-top: 40px;
+    border-radius: 5%;
 }
 
 .nav {
@@ -61,6 +75,11 @@ body {
 }
 
 .footer-center {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
     text-align: center;
 }
 
